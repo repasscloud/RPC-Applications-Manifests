@@ -49,7 +49,11 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2702-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": ""
+          "UpdateRegex": "",
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2702-1900-000001000000}"
         },
         "zh-CN": {
           "MsiExe": "msi",
@@ -62,7 +66,11 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2702-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2702-1900-000001000000}"
         },
         "zh-HK": {
           "MsiExe": "msi",
@@ -75,7 +83,11 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2702-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2702-1900-000001000000}"
         },
         "fr-FR": {
           "MsiExe": "msi",
@@ -88,7 +100,11 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2702-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2702-1900-000001000000}"
         },
         "de-DE": {
           "MsiExe": "msi",
@@ -101,7 +117,11 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2702-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2702-1900-000001000000}"
         },
         "id-ID": {
           "MsiExe": "msi",
@@ -114,7 +134,11 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2702-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2702-1900-000001000000}"
         },
         "ja-JP": {
           "MsiExe": "msi",
@@ -127,7 +151,11 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2702-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2702-1900-000001000000}"
         },
         "pt-BR": {
           "MsiExe": "msi",
@@ -140,7 +168,11 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2702-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2702-1900-000001000000}"
         },
         "es-ES": {
           "MsiExe": "msi",
@@ -153,7 +185,11 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2702-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2702-1900-000001000000}"
         },
         "th-TH": {
           "MsiExe": "msi",
@@ -166,7 +202,11 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2702-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2702-1900-000001000000}"
         },
         "vi-VN": {
           "MsiExe": "msi",
@@ -179,12 +219,17 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2702-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2702-1900-000001000000}"
         }
       },
       "x86": {
         "en-US": {
           "MsiExe": "msi",
+          "InstallURI": "https://7-zip.org/a/7z1900-x64.msi",
           "FollowURI": "https://7-zip.org/a/7z1900.msi",
           "Sha256": "B49D55A52BC0EAB14947C8982C413D9BE141C337DA1368A24AA0484CBB5E89CD",
           "Sha512": "F73B04E2D9F29D4393FDE572DCF3C3F0F6FA27E747E5DF292294AB7536AE24C239BF917689D71EB10CC49F6B9A4ACE26D7C122EE887D93CC935F268C404E9067",
@@ -193,10 +238,15 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2701-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": ""
+          "UpdateRegex": "",
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2701-1900-000001000000}"
         },
         "zh-CN": {
           "MsiExe": "msi",
+          "InstallURI": "https://7-zip.org/a/7z1900-x64.msi",
           "FollowURI": "https://7-zip.org/a/7z1900.msi",
           "Sha256": "B49D55A52BC0EAB14947C8982C413D9BE141C337DA1368A24AA0484CBB5E89CD",
           "Sha512": "F73B04E2D9F29D4393FDE572DCF3C3F0F6FA27E747E5DF292294AB7536AE24C239BF917689D71EB10CC49F6B9A4ACE26D7C122EE887D93CC935F268C404E9067",
@@ -205,10 +255,15 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2701-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2701-1900-000001000000}"
         },
         "zh-HK": {
           "MsiExe": "msi",
+          "InstallURI": "https://7-zip.org/a/7z1900-x64.msi",
           "FollowURI": "https://7-zip.org/a/7z1900.msi",
           "Sha256": "B49D55A52BC0EAB14947C8982C413D9BE141C337DA1368A24AA0484CBB5E89CD",
           "Sha512": "F73B04E2D9F29D4393FDE572DCF3C3F0F6FA27E747E5DF292294AB7536AE24C239BF917689D71EB10CC49F6B9A4ACE26D7C122EE887D93CC935F268C404E9067",
@@ -217,10 +272,15 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2701-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2701-1900-000001000000}"
         },
         "fr-FR": {
           "MsiExe": "msi",
+          "InstallURI": "https://7-zip.org/a/7z1900-x64.msi",
           "FollowURI": "https://7-zip.org/a/7z1900.msi",
           "Sha256": "B49D55A52BC0EAB14947C8982C413D9BE141C337DA1368A24AA0484CBB5E89CD",
           "Sha512": "F73B04E2D9F29D4393FDE572DCF3C3F0F6FA27E747E5DF292294AB7536AE24C239BF917689D71EB10CC49F6B9A4ACE26D7C122EE887D93CC935F268C404E9067",
@@ -229,10 +289,15 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2701-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2701-1900-000001000000}"
         },
         "de-DE": {
           "MsiExe": "msi",
+          "InstallURI": "https://7-zip.org/a/7z1900-x64.msi",
           "FollowURI": "https://7-zip.org/a/7z1900.msi",
           "Sha256": "B49D55A52BC0EAB14947C8982C413D9BE141C337DA1368A24AA0484CBB5E89CD",
           "Sha512": "F73B04E2D9F29D4393FDE572DCF3C3F0F6FA27E747E5DF292294AB7536AE24C239BF917689D71EB10CC49F6B9A4ACE26D7C122EE887D93CC935F268C404E9067",
@@ -241,10 +306,15 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2701-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2701-1900-000001000000}"
         },
         "id-ID": {
           "MsiExe": "msi",
+          "InstallURI": "https://7-zip.org/a/7z1900-x64.msi",
           "FollowURI": "https://7-zip.org/a/7z1900.msi",
           "Sha256": "B49D55A52BC0EAB14947C8982C413D9BE141C337DA1368A24AA0484CBB5E89CD",
           "Sha512": "F73B04E2D9F29D4393FDE572DCF3C3F0F6FA27E747E5DF292294AB7536AE24C239BF917689D71EB10CC49F6B9A4ACE26D7C122EE887D93CC935F268C404E9067",
@@ -253,10 +323,15 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2701-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2701-1900-000001000000}"
         },
         "ja-JP": {
           "MsiExe": "msi",
+          "InstallURI": "https://7-zip.org/a/7z1900-x64.msi",
           "FollowURI": "https://7-zip.org/a/7z1900.msi",
           "Sha256": "B49D55A52BC0EAB14947C8982C413D9BE141C337DA1368A24AA0484CBB5E89CD",
           "Sha512": "F73B04E2D9F29D4393FDE572DCF3C3F0F6FA27E747E5DF292294AB7536AE24C239BF917689D71EB10CC49F6B9A4ACE26D7C122EE887D93CC935F268C404E9067",
@@ -265,10 +340,15 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2701-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2701-1900-000001000000}"
         },
         "pt-BR": {
           "MsiExe": "msi",
+          "InstallURI": "https://7-zip.org/a/7z1900-x64.msi",
           "FollowURI": "https://7-zip.org/a/7z1900.msi",
           "Sha256": "B49D55A52BC0EAB14947C8982C413D9BE141C337DA1368A24AA0484CBB5E89CD",
           "Sha512": "F73B04E2D9F29D4393FDE572DCF3C3F0F6FA27E747E5DF292294AB7536AE24C239BF917689D71EB10CC49F6B9A4ACE26D7C122EE887D93CC935F268C404E9067",
@@ -277,10 +357,15 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2701-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2701-1900-000001000000}"
         },
         "es-ES": {
           "MsiExe": "msi",
+          "InstallURI": "https://7-zip.org/a/7z1900-x64.msi",
           "FollowURI": "https://7-zip.org/a/7z1900.msi",
           "Sha256": "B49D55A52BC0EAB14947C8982C413D9BE141C337DA1368A24AA0484CBB5E89CD",
           "Sha512": "F73B04E2D9F29D4393FDE572DCF3C3F0F6FA27E747E5DF292294AB7536AE24C239BF917689D71EB10CC49F6B9A4ACE26D7C122EE887D93CC935F268C404E9067",
@@ -289,10 +374,15 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2701-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2701-1900-000001000000}"
         },
         "th-TH": {
           "MsiExe": "msi",
+          "InstallURI": "https://7-zip.org/a/7z1900-x64.msi",
           "FollowURI": "https://7-zip.org/a/7z1900.msi",
           "Sha256": "B49D55A52BC0EAB14947C8982C413D9BE141C337DA1368A24AA0484CBB5E89CD",
           "Sha512": "F73B04E2D9F29D4393FDE572DCF3C3F0F6FA27E747E5DF292294AB7536AE24C239BF917689D71EB10CC49F6B9A4ACE26D7C122EE887D93CC935F268C404E9067",
@@ -301,10 +391,15 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2701-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2701-1900-000001000000}"
         },
         "vi-VN": {
           "MsiExe": "msi",
+          "InstallURI": "https://7-zip.org/a/7z1900-x64.msi",
           "FollowURI": "https://7-zip.org/a/7z1900.msi",
           "Sha256": "B49D55A52BC0EAB14947C8982C413D9BE141C337DA1368A24AA0484CBB5E89CD",
           "Sha512": "F73B04E2D9F29D4393FDE572DCF3C3F0F6FA27E747E5DF292294AB7536AE24C239BF917689D71EB10CC49F6B9A4ACE26D7C122EE887D93CC935F268C404E9067",
@@ -313,7 +408,11 @@
           "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
           "UninstallArgs": "/x {23170F69-40C1-2701-1900-000001000000} /qn",
           "UpdateURI": "https://chocolatey.org/packages/7zip.install",
-          "UpdateRegex": null
+          "UpdateRegex": null,
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application 7-Zip).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /I{23170F69-40C1-2701-1900-000001000000}"
         }
       }
     }
