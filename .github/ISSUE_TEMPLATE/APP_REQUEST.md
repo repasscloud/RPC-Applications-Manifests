@@ -2,7 +2,7 @@
 name: "\U0001F4BB New Application Request"
 about: "Request a new application \U0001F4BB."
 title: ''
-labels: 'i: app-request, i: needs triage'
+labels: 'i: app/new, i: needs triage'
 assignees: ''
 
 ---
@@ -17,7 +17,11 @@ assignees: ''
 **License:**  <!-- Replace with license type (if known, else 'n/a') -->  
 **Package:**  <!-- Replace with 'MSI' or 'EXE' (if known, else 'n/a') -->  
 **Arch:**  <!-- Replace with 'x64' or 'x86' or 'x86_64' (if known, else 'n/a') -->  
+**Category:**  <!-- Select category: 'browser','business','entertainment','graphic_design','photo','social','productivity','games','security','microsoft' -->
 **Notes:**  <!-- Add any notes -->  
+**Icon:**
+<img src="<!-- URI-GOES-HERE -->"
+     style="float: left; margin-right: 10px;" height="42" width="42" />
 
 -------------
 <!-- This section is for Admin Use Only -->
