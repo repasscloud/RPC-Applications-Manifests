@@ -15,9 +15,9 @@ assignees: ''
 **Version:**  <!-- Replace with latest version -->  
 **Website:**  <!-- Replace with app homepage -->  
 **License:**  <!-- Replace with license type (if known, else 'n/a') -->  
-**Package:**  <!-- Replace with 'MSI' or 'EXE' (if known, else 'n/a') -->
-**Arch:**  <!-- Replace with 'x64' or 'x86' or 'x86_64' (if known, else 'n/a') -->
-**Notes:**  <!-- Add any notes -->
+**Package:**  <!-- Replace with 'MSI' or 'EXE' (if known, else 'n/a') -->  
+**Arch:**  <!-- Replace with 'x64' or 'x86' or 'x86_64' (if known, else 'n/a') -->  
+**Notes:**  <!-- Add any notes -->  
 
 -------------
 <!-- This section is for Admin Use Only -->
