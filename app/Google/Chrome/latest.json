@@ -1,5 +1,5 @@
 {
-  "Category": "entertainment",
+  "Category": "browser",
   "Manifest": "4.3.7.9",
   "Nuspec": true,
   "NuspecURI": "https://raw.githubusercontent.com/chocolatey-community/chocolatey-coreteampackages/master/automatic/googlechrome/googlechrome.nuspec",
