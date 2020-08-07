@@ -10,29 +10,19 @@ assignees: ''
 <!-- Set title to: [App, New] Publisher.ApplicationName -->
 
 ## New App Request
-
-**Application Details**  
 **Publisher:**  <!-- Replace with publisher -->   
 **AppName:**  <!-- Replace with application name -->  
 **Version:**  <!-- Replace with latest version -->  
 **Website:**  <!-- Replace with app homepage -->  
-**License:**  <!-- Replace with license type (if known) -->  
-**Package:**  
+**License:**  <!-- Replace with license type (if known, else 'n/a') -->  
+**Package:**  <!-- Replace with 'MSI' or 'EXE' (if known, else 'n/a') -->
+**Arch:**  <!-- Replace with 'x64' or 'x86' or 'x86_64' (if known, else 'n/a') -->
+**Notes:**  <!-- Add any notes -->
 
-### Package Type
-<!-- put 'x' between square brackets of choice/s -->
-- [ ] Msi 
-- [ ] Exe
-- [ ] Unsure
+-------------
 
-### Architecture
-<!-- put 'x' between square brackets of choice/s -->
-- [ ] x64
-- [ ] x86
-
-### Open Source
-<!-- put 'x' between square brackets of choice/s -->
-- [ ] Yes
-- [ ] No
-- [ ] Unsure
-
+### Admin Use Only
+- [ ] `L10n`
+- [ ] Notes
+- [ ] Tagged
+- [ ] Ref
