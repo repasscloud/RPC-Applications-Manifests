@@ -20,8 +20,10 @@ assignees: ''
 **Notes:**  <!-- Add any notes -->
 
 -------------
-
+<!-- This section is for Admin Use Only -->
+<!-- Please do not make changes below -->
 ### Admin Use Only
+> do not edit this section
 - [ ] `L10n`
 - [ ] Notes
 - [ ] Tagged
