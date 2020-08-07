@@ -7,14 +7,17 @@ assignees: ''
 
 ---
 
+<!-- Set title to: [App, New] Publisher.ApplicationName -->
+
 ## New App Request
 
 **Application Details**  
-Publisher: <!-- Replace with publisher -->  
-AppName: <!-- Replace with application name -->  
-Version: <!-- Replace with latest version -->  
-Website: <!-- Replace with app homepage -->  
-License: <!-- Replace with license type (if known) -->  
+**Publisher:**  <!-- Replace with publisher -->   
+**AppName:**  <!-- Replace with application name -->  
+**Version:**  <!-- Replace with latest version -->  
+**Website:**  <!-- Replace with app homepage -->  
+**License:**  <!-- Replace with license type (if known) -->  
+**Package:**  
 
 ### Package Type
 <!-- put 'x' between square brackets of choice/s -->
