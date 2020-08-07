@@ -1,10 +1,10 @@
 # RPC Application Matrix
-                    
-![GitHub top language](https://img.shields.io/github/languages/top/repasscloud/rpc-application-matrix?logo=powershell)
-![License](https://img.shields.io/github/license/repasscloud/rpc-application-matrix.svg)
-![Repository size](https://img.shields.io/github/repo-size/repasscloud/rpc-application-matrix.svg)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/repasscloud/rpc-application-matrix)](https://github.com/repasscloud/rpc-application-matrix/releases/latest)
-![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/repasscloud/rpc-application-matrix/latest)
+
+![GitHub top language](https://img.shields.io/github/languages/top/repasscloud/RPC-Applications-Manifests?logo=powershell)
+[![GitHub issues](https://img.shields.io/github/issues/repasscloud/RPC-Applications-Manifests)](https://github.com/repasscloud/RPC-Applications-Manifests/issues)
+[![GitHub forks](https://img.shields.io/github/forks/repasscloud/RPC-Applications-Manifests)](https://github.com/repasscloud/RPC-Applications-Manifests/network)
+[![GitHub license](https://img.shields.io/github/license/repasscloud/RPC-Applications-Manifests)](https://github.com/repasscloud/RPC-Applications-Manifests/blob/master/LICENSE)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/repasscloud/RPC-Applications-Manifests)
 
 
 ### CI Builds
@@ -12,3 +12,4 @@
 |--------|--------|
 | Master |  |
 | Master |  |
+
