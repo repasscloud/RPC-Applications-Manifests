@@ -1,0 +1,72 @@
+{
+  "Category": "entertainment",
+  "Manifest": "4.3.7.9",
+  "Nuspec": true,
+  "NuspecURI": "https://raw.githubusercontent.com/chocolatey-community/chocolatey-coreteampackages/master/automatic/googlechrome/googlechrome.nuspec",
+  "Copyright": "Copyright © 2020 RePassCloud.com\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.",
+  "Id": {
+    "Version": "84.0.4147.105",
+    "Name": "Chrome",
+    "Publisher": "Google",
+    "Copyright": "Copyright 2020 Google LLC. All rights reserved.",
+    "License": "Proprietary freeware, based on open source components",
+    "LicenseURI": "https://www.google.com/intl/en/chrome/browser/privacy/eula_text.html",
+    "Homepage": "https://www.google.com/chrome/browser/",
+    "Description": "Chrome is a fast, simple, and secure web browser, built for the modern web.",
+    "Arch": [
+      "x64",
+      "x86"
+    ],
+    "Languages": [
+      "en-US"
+    ],
+    "Tags": [
+      "google",
+      "chrome",
+      "web",
+      "internet",
+      "browser"
+    ],
+    "Depends": [],
+    "Installers": {
+      "x64": {
+        "en-US": {
+          "MsiExe": "msi",
+          "InstallURI": "https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi",
+          "FollowURI": "https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi",
+          "Sha256": "CC562067E230B7C65A0C758A269B354BD0208B12178075AEE856731F02DC33B4",
+          "Sha512": "1E037720997A32D6A8C515C99BCFC7EE8A0FFDB2EF4C03ABE400604CF4737CF77E3FC35D760F356462E411199F0EFDCF5D91358A5DFDC865A834775B60DDCF7B",
+          "InstallExe": "googlechromestandaloneenterprise64.msi",
+          "InstallArgs": "/quiet /norestart",
+          "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
+          "UninstallArgs": "/x {6B3D70C2-5576-3088-A49F-5DB015810E3F} /qn",
+          "UpdateURI": "https://chocolatey.org/packages/GoogleChrome",
+          "UpdateRegex": "",
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application Chrome).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /X{6B3D70C2-5576-3088-A49F-5DB015810E3F}"
+        }
+      },
+      "x86": {
+        "en-US": {
+          "MsiExe": "msi",
+          "InstallURI": "https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi",
+          "FollowURI": "https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise.msi",
+          "Sha256": "C30813F3403632E53DEE16E9570793D7AA15DA6F2270D9300D6F88DD040D8B29",
+          "Sha512": "186EEFE0ADDE2F76BE3E338C1AD7E257A7840474F0A60238F33255C8B96FF6B1BDE3BD7C8AE6A591F73955EF21CFBED4F578C9F0F70C647097903F8F24E68A5F",
+          "InstallExe": "googlechromestandaloneenterprise.msi",
+          "InstallArgs": "/quiet /norestart",
+          "UninstallExe": "C:\\Windows\\System32\\msiexec.exe",
+          "UninstallArgs": "/x {56C252A9-2691-3202-92F4-B3FDAC594854} /qn",
+          "UpdateURI": "https://chocolatey.org/packages/GoogleChrome",
+          "UpdateRegex": "",
+          "DetectionMethod": "Custom",
+          "DetectionValue": "(Get-UninstallString -Application Chrome).UninstallString",
+          "DetectionKind": "String",
+          "DetectionResult": "MsiExec.exe /X{56C252A9-2691-3202-92F4-B3FDAC594854}"
+        }
+      }
+    }
+  }
+}
