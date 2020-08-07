@@ -2,7 +2,7 @@
 name: "\U0001F4BB New Application Request"
 about: "Request a new application \U0001F4BB."
 title: ''
-labels: 'i: app/new, i: needs triage'
+labels: 'app/new'
 assignees: ''
 
 ---
